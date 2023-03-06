@@ -31,11 +31,9 @@ Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement p
 
 
 .Étapes
-. Dans BlueXP, ajoutez un nouvel environnement de travail, sélectionnez l'emplacement *Google Cloud*, puis cliquez sur *Continuer*.
-. Sélectionnez *Cloud Volumes Service* et cliquez sur *Continuer*.
-+
-image:screenshot_add_cvs_gcp_working_env.png["Capture d'écran de l'ajout d'un environnement de travail pour un abonnement Cloud Volumes Service pour GCP"]
-
+. Dans le menu de navigation BlueXP, sélectionnez *stockage > Canvas*.
+. Sur la page Canevas, cliquez sur *Ajouter un environnement de travail* et sélectionnez *Google Cloud Platform*.
+. En regard de Cloud Volumes Service, sélectionnez *découvrir*.
 . Fournir des informations sur votre abonnement Cloud Volumes Service :
 +
 .. Entrez le nom de l'environnement de travail que vous souhaitez utiliser.
