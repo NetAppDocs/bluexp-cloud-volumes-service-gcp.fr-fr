@@ -31,7 +31,7 @@ NetApp Cloud Volumes Service pour Google Cloud vous permet d'ajouter rapidement 
 
 == Le coût
 
-Les volumes créés par Cloud Volumes Service pour Google Cloud sont facturés pour votre abonnement au service, et non par BlueXP (anciennement Cloud Manager).
+Les volumes créés par Cloud Volumes Service pour Google Cloud sont facturés à votre abonnement au service, et non via BlueXP.
 
 Il n'y a aucun frais pour découvrir une région ou un volume Cloud Volumes Service pour Google Cloud depuis BlueXP.
 
