@@ -17,7 +17,6 @@
   <block id="939e2552f14c2db1e32edf892141ef1f" category="paragraph"><block ref="939e2552f14c2db1e32edf892141ef1f" category="inline-link-rx"></block></block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">Avant de commencer</block>
   <block id="ba1ec04f6bf2ff4dcb3909ab4182292d" category="inline-link">Documentation NetApp Cloud Volumes Service pour Google Cloud</block>
-  <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXP peut découvrir les abonnements et volumes Cloud Volumes Service pour GCP existants. Voir la<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> si vous n'avez pas encore configuré votre abonnement.</block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">Obtenir de l'aide</block>
   <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">Utilisez le chat BlueXP pour des questions générales sur le fonctionnement de Cloud Volumes Service dans BlueXP.</block>
   <block id="10f5b4e8583801dbea2ede6fbb4e4ae4" category="paragraph">Pour toute question d'ordre général sur Cloud Volumes Service pour Google Cloud, envoyez un e-mail à l'équipe Google Cloud de NetApp à l'adresse gcinfo@netapp.com.</block>
@@ -27,17 +26,6 @@
   <block id="d51fa5f4ad125ac84151a2b270209fff" category="inline-link">NetApp BlueXP : Cloud Volumes Service pour Google Cloud</block>
   <block id="e733ab7fe70716f6a8ac15ccc73cba45" category="list-text"><block ref="e733ab7fe70716f6a8ac15ccc73cba45" category="inline-link-rx"></block></block>
   <block id="4025377504ab93e000f14fb259cf7ed8" category="list-text"><block ref="4025377504ab93e000f14fb259cf7ed8" category="inline-link-rx"></block></block>
-  <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">Pour commencer rapidement, suivez ces étapes ou suivez les liens ci-dessous pour obtenir plus d'informations.</block>
-  <block id="04476610d425410da3c197a32de6a851" category="doc">Démarrage rapide de Cloud Volumes Service pour Google Cloud</block>
-  <block id="245601b4ea40e651b249dd4137f77c21" category="paragraph">Depuis Google, activez l'API Cloud Volumes Service pour GCP afin que BlueXP puisse gérer les abonnements et les volumes cloud.</block>
-  <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">Découvrez comment activer l'API</block>
-  <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>.</block>
-  <block id="b4db720a6f69a27aed45fbdd1ab4b6ed" category="paragraph">Depuis Google, créez un compte de service et un rôle afin que BlueXP puisse accéder à votre compte Cloud Volumes Service pour Google Cloud.</block>
-  <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">Découvrez comment configurer un compte de service</block>
-  <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>.</block>
-  <block id="6a122cba956a734449e67334e4204f2d" category="paragraph">Dans BlueXP, cliquez sur *Ajouter un environnement de travail* &gt; *Google Cloud* &gt; *Cloud Volumes Service*, puis fournissez des détails sur le compte de service et le projet Google Cloud.</block>
-  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">Découvrez comment créer un environnement de travail</block>
-  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>.</block>
   <block id="546e8223d9ca3eac26f1c4607fe857c4" category="summary">Vous pouvez supprimer un abonnement Cloud Volumes Service pour Google Cloud et tous les volumes existants de BlueXP. Les volumes ne sont pas supprimés, ils sont simplement supprimés de l'interface BlueXP.</block>
   <block id="b85b36830c35b1e3b85c911b3cd549f3" category="doc">Retirez Cloud Volumes Service de BlueXP</block>
   <block id="b14d1e068c8031b86314c9902472be25" category="admonition">La suppression de votre abonnement Cloud Volumes Service pour Google Cloud de BlueXP n'est pas prise en charge. Pour ce faire, vous pouvez utiliser la console Google Cloud.</block>
@@ -51,8 +39,6 @@
   <block id="93456289ee6ad1673b37dffa674f01e0" category="summary">Créez un environnement de travail Cloud Volumes Service pour Google Cloud dans BlueXP pour créer et gérer des volumes et des snapshots.</block>
   <block id="5747722bb189495cdccebf12276e2ffd" category="doc">Créez un environnement de travail Cloud Volumes Service pour Google Cloud</block>
   <block id="e7a6701903bcc055d76abe5f57735fc4" category="paragraph">Créez un environnement de travail Cloud Volumes Service pour Google Cloud dans BlueXP afin que vous puissiez créer et gérer des volumes et des snapshots.</block>
-  <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">Que vous ayez déjà créé des volumes depuis Google Cloud Console ou que vous vous abonnez à Cloud Volumes Service pour Google Cloud et que vous ne possédez pas de volumes, la première étape consiste à créer un environnement de travail pour les volumes basés sur votre abonnement GCP.</block>
-  <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">Si des volumes cloud existent déjà pour cet abonnement, les volumes apparaîtront dans le nouvel environnement de travail. Si vous n'avez pas encore ajouté de volumes cloud pour l'abonnement GCP, cela se produit une fois que vous avez créé le nouvel environnement de travail.</block>
   <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">Si vous avez des abonnements et des volumes dans plusieurs projets Google Cloud, vous devez effectuer cette tâche pour chaque projet.</block>
   <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement pour chaque projet :</block>
   <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">Identifiants de compte de service (clé privée JSON que vous avez téléchargée)</block>
@@ -62,8 +48,6 @@
   <block id="56bab707c78784ba9b87a1e53b01fb02" category="list-text">Copiez/collez la clé privée JSON que vous avez téléchargée au cours des étapes précédentes.</block>
   <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">Sélectionnez le nom de votre projet Google Cloud.</block>
   <block id="26983a904e0717c520032a2178795368" category="list-text">Cliquez sur *Continuer*.</block>
-  <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">Capture d'écran indiquant l'ajout d'identifiants pour un abonnement Cloud Volumes Service pour GCP.</block>
-  <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfbd2b6430dbf5217b7290c6fd750ffd" category="paragraph">BlueXP affiche votre environnement de travail Cloud Volumes Service pour Google Cloud.</block>
   <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">Copie d'écran de l'environnement de travail Cloud Volumes Service pour Google Cloud.</block>
   <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
@@ -197,10 +181,7 @@
   <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">Passez à <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>.</block>
   <block id="fb40390dc5f9af56c8a05dba3f355101" category="summary">BlueXP a besoin d'un accès à l'API Cloud Volumes Service et de droits d'accès via un compte de service Google Cloud.</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="doc">Configurez Google Cloud</block>
-  <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">Activez l'API Cloud Volumes Service</block>
-  <block id="db680318754971180f12e167ae5f6325" category="paragraph">Dans Google Cloud Shell, exécutez la commande suivante pour activer l'API Cloud Volumes Service :</block>
   <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph"><block ref="8feb5e5522e47ef199781c1d6df3bf83" prefix="" category="inline-code"></block></block>
-  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">Configurez un compte de service</block>
   <block id="b87ecb1d933b8e5835c8e93327f7676e" category="paragraph">Effectuez les tâches suivantes pour que BlueXP puisse accéder à votre projet Google Cloud :</block>
   <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">Créez un nouveau compte de service</block>
   <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">Ajoutez le nouveau membre du compte de service à votre projet et attribuez-lui des rôles (autorisations) spécifiques.</block>
@@ -232,7 +213,6 @@
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">Créer des volumes</block>
   <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">Vous pouvez créer des volumes NFS ou SMB dans un compte Cloud Volumes Service pour Google Cloud existant ou nouveau. Les volumes cloud prennent actuellement en charge NFSv3 et NFSv4.1 pour les clients Linux et UNIX, et SMB 3.x pour les clients Windows.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Avant de commencer</block>
-  <block id="ce18c1db074bb9e5c1d0abfee30e098f" category="list-text">Si vous souhaitez utiliser SMB dans GCP, vous devez avoir configuré DNS et Active Directory.</block>
   <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">Lorsque vous prévoyez de créer un volume SMB, vous devez disposer d'un serveur Windows Active Directory disponible auquel vous pouvez vous connecter. Vous entrez ces informations lors de la création du volume. Assurez-vous également que l'utilisateur administrateur peut créer un compte machine dans le chemin d'unité organisationnelle spécifié.</block>
   <block id="3a9d2e9f2ef6e95de617c14d2e4a4ef4" category="list-text">Sélectionnez l'environnement de travail et cliquez sur *Ajouter un nouveau volume*.</block>
   <block id="a88cc7492eb95c6a27a508257cb9c7d3" category="list-text">Sur la page Détails et emplacement, saisissez les détails du volume :</block>
@@ -288,7 +268,6 @@
   <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">Instructions de montage pour les volumes SMB</block>
   <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">Mappez votre lecteur réseau en suivant les instructions de montage de votre instance.</block>
-  <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">Après avoir terminé les étapes des instructions de montage, vous avez correctement monté le volume cloud sur votre instance GCP.</block>
   <block id="83472337cbb57099afa660a35a9c3772" category="summary">Vous pouvez gérer les volumes existants à mesure que vos besoins de stockage changent. Vous pouvez afficher, modifier, restaurer et supprimer des volumes.</block>
   <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">Gérer les volumes existants</block>
   <block id="51c267e93c101971f1edda68c933c864" category="list-text">Placez le pointeur de la souris sur le volume.</block>
@@ -358,11 +337,7 @@
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">Et la suite ?</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Une fois que vous avez terminé</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Une seule</block>
-  <block id="60c9d220e03340a34dceea57e2b0222f" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Activez l'API Cloud Volumes Service</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Deux</block>
-  <block id="20ed45d1c1c6459f7df4f8fc85d64ba0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Créez un compte de service GCP et téléchargez les identifiants</block>
-  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">Trois</block>
-  <block id="f14277432a50a858ea51d3dbce562088" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> Créez un environnement de travail Cloud Volumes Service pour GCP</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Recherchez le numéro de série de l'ID de compte sur la page d'inscription au support.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copiez le numéro de série de votre compte à l'étape 2 ci-dessus, vérifiez sa sécurité, puis lisez la Déclaration de confidentialité des données NetApp.</block>
@@ -475,4 +450,26 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Bénéficiez du support pour les services de fichiers d'un fournisseur cloud</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Pour obtenir de l'aide concernant un service de fichiers d'un fournisseur cloud, son infrastructure ou toute solution utilisant le service, consultez la section « obtention d'aide » de la documentation BlueXP associée à ce produit.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Pour bénéficier du support technique spécifique à BlueXP et à ses solutions et services de stockage, utilisez les options de support décrites ci-dessous.</block>
+  <block id="900cacb5971edc5fdcfdb258d6dba1e4" category="paragraph">Que vous ayez déjà créé des volumes depuis la console Google Cloud ou que vous venez de vous inscrire à Cloud Volumes Service pour Google Cloud sans aucun volume, la première étape consiste à créer un environnement de travail pour les volumes basés sur votre abonnement Google Cloud.</block>
+  <block id="fa7b981545402e8580bddc3adf9cef7a" category="paragraph">Si des volumes cloud existent déjà pour cet abonnement, les volumes apparaîtront dans le nouvel environnement de travail. Si vous n'avez pas encore ajouté de volumes cloud pour l'abonnement à Google Cloud, faites cela après avoir créé le nouvel environnement de travail.</block>
+  <block id="c99f684b010bc8f7b4fa8ee549806a49" category="inline-image-macro">Copie d'écran de l'ajout d'identifiants pour un abonnement à Cloud Volumes Service pour Google Cloud.</block>
+  <block id="8ee75aba94ba04e51fe54e738c576517" category="paragraph"><block ref="8ee75aba94ba04e51fe54e738c576517" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fa4b509618baa240e76ba2859660da3" category="paragraph">BlueXP peut détecter les abonnements et les volumes Cloud Volumes Service pour Google Cloud existants. Voir la<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> si vous n'avez pas encore configuré votre abonnement.</block>
+  <block id="7db3ae7aa1d24eb06d62c0cb0ed678ae" category="list-text">Si vous souhaitez utiliser SMB dans Google Cloud, vous devez avoir configuré DNS et Active Directory.</block>
+  <block id="089ded181f5256b29409c1eafafd51b9" category="paragraph">Après avoir effectué les étapes des instructions de montage, vous avez monté le volume cloud sur votre instance Google Cloud.</block>
+  <block id="6b0fb7c0d2cfa8f64fcb6049f7b1fcc7" category="summary">Pour commencer à utiliser Cloud Volumes ONTAP pour Google Cloud, configurez Google Cloud, puis créez un environnement de travail.</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">Mise en route du flux de travail</block>
+  <block id="3e78595d1d3ae86258a7b0046782656b" category="paragraph">Pour commencer à utiliser Cloud Volumes Service pour Google Cloud, configurez Google Cloud, puis créez un environnement de travail.</block>
+  <block id="28eda352be26509e42dcdad8ea712b08" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1a521c21359bc598920e036b48976b8b" category="inline-link-macro-rx"></block></block>
+  <block id="3cbe6a41e088877beb0fdc0f033c9db7" category="paragraph">Depuis Google, activez l'API Cloud Volumes Service et créez un compte de service.</block>
+  <block id="333d97983b982d95aa66476af120900b" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="17f92a667c153c4b71522d9f7388a1be" category="inline-link-macro-rx"></block></block>
+  <block id="e6892525cc09832738d2159589a818d6" category="paragraph">Depuis BlueXP, cliquez sur *Ajouter un environnement de travail* &gt; *Google Cloud* &gt; *Cloud Volumes Service*, puis indiquez les détails du compte de service et du projet Google Cloud.</block>
+  <block id="2c5e9cc90fb536b4aa1861bd954ecd97" category="section-title">Étape 1 : activez l'API Cloud Volumes Service</block>
+  <block id="1c5b39013ed220fe7410c674acea6cb3" category="paragraph">Activez l'API Cloud Volumes Service pour que BlueXP puisse gérer l'abonnement et les volumes cloud.</block>
+  <block id="62fe79c8badc2a334d45a4c907747183" category="list-text">Depuis Google Cloud, lancez une session Cloud Shell.</block>
+  <block id="f7b252cf92cffa8bd8dccbbfdc5bf153" category="inline-link">Documentation Google Cloud : lancez Cloud Shell</block>
+  <block id="774582c0b01eadfb3f8f0775e15a5220" category="paragraph"><block ref="774582c0b01eadfb3f8f0775e15a5220" category="inline-link-rx"></block></block>
+  <block id="7d4858380df2c179560798250655ff74" category="list-text">Exécutez la commande suivante pour activer l'API Cloud Volumes Service :</block>
+  <block id="9bbd421955a8eed4c188692bb2a2a4ea" category="section-title">Étape 2 : configurer un compte de service</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
 </blocks>
