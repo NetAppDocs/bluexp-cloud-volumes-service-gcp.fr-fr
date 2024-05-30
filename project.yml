@@ -47,28 +47,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: Mentions légales
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Commencez
-    links:
-    - title: En savoir plus sur Cloud Volumes Service pour Google Cloud
-      url: concept-cvs-gcp.html
-    - title: Démarrage rapide
-      url: task-quick-start.html
-  - title: Utiliser Cloud Volumes Service
-    links:
-    - title: Créer des volumes
-      url: task-create-volumes.html
-    - title: Gestion des copies Snapshot de Cloud volumes
-      url: task-manage-snapshots.html
-  - title: Communauté sur les blogs
-    links:
-    - title: Communauté NetApp
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog BlueXP
-      url: https://cloud.netapp.com/blog
-    - title: Webinaires sur le cloud
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
